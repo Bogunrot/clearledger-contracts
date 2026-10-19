@@ -595,6 +595,7 @@ EOF
 if [ -f "scripts/maintainer/update-readme-addresses.sh" ]; then
   bash scripts/maintainer/update-readme-addresses.sh
 fi
+python3 scripts/check_deployment_metadata.py
 
 echo ""
 echo "==========================================="
